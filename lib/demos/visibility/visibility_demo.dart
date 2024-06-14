@@ -53,7 +53,7 @@ class _VisibilityDemoState extends State<VisibilityDemo> {
           subtitleColor: Colors.grey[300],
         ),
         ConfiguraTile(
-          tileColor: Colors.black,
+          tileColor: const Color.fromARGB(255, 156, 115, 115),
           leading: const Icon(Icons.remove_red_eye, color: Colors.white),
           title: 'Reappear',
           subtitle: 'Make it reappear',
